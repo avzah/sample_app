@@ -7,8 +7,9 @@ gem 'activerecord', '~> 4.2', '>= 4.2.6'
 gem 'rails', '4.2.6'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
-  gem 'pg', '0.18.4'
-  gem 'sqlite3'
+  gem 'byebug'
+  gem 'pg', '~> 0.18.4'
+  # gem 'sqlite3', '~> 1.3', '>= 1.3.11'
   gem 'rspec-rails', '~> 2.8'
 end
 
@@ -46,7 +47,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug'
 end
 
 group :development do
