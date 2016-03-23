@@ -32,8 +32,8 @@ end
 
   gem 'unicorn'
 
-group :production do
-  gem 'rails_12factor'
-  gem 'sqlite3', '~> 1.3', '>= 1.3.11'
-  gem 'pg'
-end
+#group :production do
+#  gem 'rails_12factor'
+#  gem 'sqlite3', '~> 1.3', '>= 1.3.11'
+#  gem 'pg'
+#end
