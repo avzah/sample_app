@@ -7,7 +7,6 @@ gem 'rails', '4.2.6'
 
 group :development, :test do
   gem 'byebug'
-  # gem 'sqlite3', '~> 1.3', '>= 1.3.11'
   gem 'pg'
   gem 'rspec-rails', '~> 2.8'
   gem 'web-console', '~> 2.0'
@@ -35,5 +34,6 @@ end
 
 group :production do
   gem 'rails_12factor'
+  gem 'sqlite3', '~> 1.3', '>= 1.3.11'
   gem 'pg'
 end

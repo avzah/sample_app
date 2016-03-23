@@ -10,6 +10,8 @@ group :development, :test do
   # gem 'sqlite3', '~> 1.3', '>= 1.3.11'
   gem 'pg'
   gem 'rspec-rails', '~> 2.8'
+  gem 'web-console', '~> 2.0'
+  gem 'spring'
 end
 
 group :test do
@@ -30,11 +32,6 @@ group :doc do
 end 
 
   gem 'unicorn'
-
-group :development do
-  gem 'web-console', '~> 2.0'
-  gem 'spring'
-end
 
 group :production do
   gem 'rails_12factor'
