@@ -7,7 +7,8 @@ gem 'rails', '4.2.6'
 
 group :development, :test do
   gem 'byebug'
-  gem 'sqlite3', '~> 1.3', '>= 1.3.11'
+  # gem 'sqlite3', '~> 1.3', '>= 1.3.11'
+  gem 'pg'
   gem 'rspec-rails', '~> 2.8'
 end
 
